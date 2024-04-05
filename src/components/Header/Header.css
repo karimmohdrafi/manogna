@@ -44,9 +44,7 @@
     background-color: lightgreen;
 }
 @media (max-width:1050px){
-    .header-kothi img{
-        max-width: 60%;
-    }
+    
     .header{
         height: 38vw;
     }
