@@ -16,7 +16,7 @@
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
-    bottom: 15%;
+    bottom: 17%;
     left: 15vw;
     animation: fadein 5s;
 }
@@ -52,8 +52,7 @@
         height: 38vw;
     }
     .header-contents{
-        max-width: 45%;
-        max-height: 70%;
+        max-width: 90%;
     }
 }
 @media (max-width:750px){
@@ -61,8 +60,7 @@
         max-width: 100%;
     }
     .header-contents{
-        max-width: 55%;
-        max-height: 55%;
+        max-width: 100%;
     }
     .header-contents p{
         display: none;
