@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(to right, green, black, green);
+  border-radius: 10px;
   
 }
 
@@ -10,7 +12,7 @@
   display: flex;
   list-style: none;
   gap: 20px;
-  color: lightslategray;
+  color: white;
   font-size: 18px;
 }
 
@@ -23,17 +25,18 @@
 .navbar button {
   background: transparent;
   font-size: 16px;
-  color: blue;
-  border: 2px solid black;
+  color: black;
+  border: none;
   padding: 10px 30px;
   border-radius: 50px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.5s;
+  margin-right: 8px;
 }
 
 .navbar button:hover {
-  background-color: lightseagreen;
+  background-color: white;
 }
 
 .navbar .active {
@@ -57,7 +60,7 @@
   position: absolute;
   min-width: 10px;
   min-height: 10px;
-  background-color: green;
+  background-color: red;
   border-radius: 5px;
   top: -8px;
   right: -8px;
@@ -65,9 +68,10 @@
 
 .pandu {
   font-size: 35px;
-  color: seagreen;
+  color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-left: 5px;
+  margin-left: 10px;
 }
 @media (max-width:1050px){
   .pandu{

@@ -1,4 +1,4 @@
-import basket_icon from './basket_icon.png'
+import basket_icon from './tray1.png'
 import logonew from './logonew.jpg'
 import header_img from './header_img.png'
 import longfood from './longfood.jpg'

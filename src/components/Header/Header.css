@@ -1,10 +1,11 @@
 .kothi{
-    width: 1010px;
-    height: 34vw;
-    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin:  20px auto;
     background-size: contain;
     border-radius: 20px;
-    filter: grayscale(15%);
+    filter: grayscale(45%);
     box-shadow: 0px 0px 30px green;
 
 }
@@ -15,9 +16,9 @@
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
-    bottom: 10%;
+    bottom: 15%;
     left: 15vw;
-    animation: fadein 3s;
+    animation: fadein 5s;
 }
 .header-contents h2{
     font-size: max(4.5vw, 22px);
@@ -43,20 +44,25 @@
 .header-contents button:hover{
     background-color: lightgreen;
 }
-@media (max-width:1050px){
-    
+@media screen and (max-width:1050px){
+    .kothi{
+        max-width: 90%;
+    }    
     .header{
         height: 38vw;
     }
     .header-contents{
         max-width: 45%;
+        max-height: 70%;
     }
 }
 @media (max-width:750px){
-    
-    
+    .kothi{
+        max-width: 100%;
+    }
     .header-contents{
         max-width: 55%;
+        max-height: 55%;
     }
     .header-contents p{
         display: none;
