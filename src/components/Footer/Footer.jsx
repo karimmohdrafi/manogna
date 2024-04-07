@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-content'>
             <div className='footer-content-left'>
                 <h1>N V N D</h1>
-                <p>At NVND, we are committed to excellence in every aspect of our operation. From our kitchen to our dining room, we strive to exceed our guests' expectations with exceptional food, impeccable service, and attention to detail. We take pride in our role as stewards of the environment and community, and we are dedicated to sustainability, responsible sourcing, and giving back to those in need.</p>
+                <p>At NVND, we are committed to excellence in every aspect of our operation. From our kitchen to our dining room.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <a href="https://x.com/mohdrafi0701?t=N9TO1KsybO9Y-weEowq8Lg&s=09"><img src={assets.twitter_icon} alt="" /></a>

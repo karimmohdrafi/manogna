@@ -1,12 +1,12 @@
 .kothi{
-    max-width: 100%;
+    width: 95%;
     height: auto;
     display: block;
     margin:  20px auto;
     background-size: contain;
     border-radius: 20px;
-    filter: grayscale(45%);
-    box-shadow: 0px 0px 30px green;
+    box-shadow: 0px 0px 20px green;
+    animation: fadein 3s;
 
 }
 .header-contents{
