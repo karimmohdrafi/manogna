@@ -67,7 +67,7 @@
 
 .pandu {
   font-size: 35px;
-  background: linear-gradient(to right, green, black, lightgreen);
+  background: linear-gradient(to right, yellow, black, black, orange);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;

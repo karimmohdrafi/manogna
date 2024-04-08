@@ -11,7 +11,7 @@ const Navbar = ({ setShowLogin }) => {
 
     return (
         <div className='navbar'>
-            <Link to='/' onClick={() => setMenu("home")} ><h1 className='pandu' >KM<i>D</i>R</h1></Link>
+            <Link to='/' onClick={() => setMenu("home")} ><h1 className='pandu' >KM<i style={{color:'green'}}>D</i>R</h1></Link>
             <ul className='navbar-menu'>
                 <Link to='/' onClick={() => setMenu("home")} className={menu === 'home' ? 'active' : ''}>Home</Link>
                 <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === 'menu' ? 'active' : ''}>Menu</a>
