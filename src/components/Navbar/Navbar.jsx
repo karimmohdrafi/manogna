@@ -11,12 +11,12 @@ const Navbar = ({ setShowLogin }) => {
 
     return (
         <div className='navbar'>
-            <Link to='/' onClick={() => setMenu("home")} ><h1 className='pandu' >NVND</h1></Link>
+            <Link to='/' onClick={() => setMenu("home")} ><h1 className='pandu' >KM<i>D</i>R</h1></Link>
             <ul className='navbar-menu'>
                 <Link to='/' onClick={() => setMenu("home")} className={menu === 'home' ? 'active' : ''}>Home</Link>
                 <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === 'menu' ? 'active' : ''}>Menu</a>
                 <a href='#app-download' onClick={() => setMenu("mobile")} className={menu === 'mobile' ? 'active' : ''}>App</a>
-                <a href='#footer' onClick={() => setMenu("contact")} className={menu === 'contact' ? 'active' : ''}>Contact Us</a>
+                <a href='#footer' onClick={() => setMenu("contact")} className={menu === 'contact' ? 'active' : ''}>Contact</a>
             </ul>
             <div className='navbar-right'>
                 <div className="navbar-search-icon">

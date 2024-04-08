@@ -23,8 +23,8 @@
     display: none;
 }
 .explore-menu-list-item img{
-    width: 7.4vw;
-    min-width: 70px;
+    width: 7vw;
+    min-width: 60px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
